@@ -1,0 +1,80 @@
+$ ./demo2.py download -k $(cat ./api.txt) -j 5e6f8cd7d314cf7e4433a851
+{
+    "error": null,
+    "error_origin": null,
+    "error_type": null,
+    "related_reports": [],
+    "state": "SUCCESS"
+}
+---> Hybrid-Analysis state is SUCCESS
+{
+    "analysis_start_time": "2020-03-16T14:27:42+00:00",
+    "av_detect": 1,
+    "certificates": [],
+    "classification_tags": [],
+    "compromised_hosts": [],
+    "domains": [],
+    "environment_description": "Linux (Ubuntu 16.04, 64 bit)",
+    "environment_id": 300,
+    "error_origin": null,
+    "error_type": null,
+    "extracted_files": [],
+    "file_metadata": null,
+    "hosts": [],
+    "imphash": "Unknown",
+    "interesting": false,
+    "job_id": "5e6f8cd7d314cf7e4433a851",
+    "md5": "e7793f15c2ff7e747b4bc7079f5cd4f7",
+    "mitre_attcks": [],
+    "processes": [],
+    "sha1": "732458574c63c3790cad093a36eadfb990d11ee6",
+    "sha256": "1e39354a6e481dac48375bfebb126fd96aed4e23bab3c53ed6ecf1c5e4d5736d",
+    "sha512": "233382698c722f0af209865f7e998bc5a0a957ca8389e8a84ba4172f2413bea1889dd79b12607d9577fd2fc17f300c8e7f223c2179f66786e5a11e28f4d68e53",
+    "size": 142144,
+    "ssdeep": "1536:BgfDyKo9d0mLrTpjQ2xioEbuGMC0kDLmLUFqpfgBLO+qDutbxHFb65RRnSULS0pF:BADnGd0mxst7DLmg0OBLIupbn0pJqN",
+    "state": "SUCCESS",
+    "submissions": [
+        {
+            "created_at": "2021-01-20T00:39:21+00:00",
+            "filename": "file",
+            "submission_id": "60077bb9bb7d2c724a411120",
+            "url": null
+        },
+        {
+            "created_at": "2021-01-19T22:59:46+00:00",
+            "filename": "file",
+            "submission_id": "60076462d47ef7527a5329bb",
+            "url": null
+        },
+        {
+            "created_at": "2020-08-16T00:04:44+00:00",
+            "filename": "ls",
+            "submission_id": "5f38781c9bca140cc905381f",
+            "url": null
+        },
+        {
+            "created_at": "2020-03-16T14:27:35+00:00",
+            "filename": "ls",
+            "submission_id": "5e6f8cd7d314cf7e4433a850",
+            "url": null
+        }
+    ],
+    "submit_name": "ls",
+    "tags": [],
+    "target_url": null,
+    "threat_level": 3,
+    "threat_score": 2,
+    "total_network_connections": 0,
+    "total_processes": 0,
+    "total_signatures": 3,
+    "type": "ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/l, BuildID[sha1]=2f15ad836be3339dec0e2e6a3c637e08e48aacbd, for GNU/Linux 3.2.0, stripped",
+    "type_short": [
+        "elf",
+        "64bits",
+        "executable"
+    ],
+    "url_analysis": false,
+    "verdict": "no verdict",
+    "vx_family": null
+}
+

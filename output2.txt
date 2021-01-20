@@ -1,0 +1,9 @@
+$ ./demo2.py download -k $(cat ./api.txt) -j 60075ee67d5da13175410809
+{
+    "error": "The file \"275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f\" has the file format \"unknown\", which is not supported",
+    "error_origin": "CLIENT",
+    "error_type": "FILE_TYPE_BAD_ERROR",
+    "related_reports": [],
+    "state": "ERROR"
+}
+---> Hybrid-Analysis state is ERROR

@@ -1,0 +1,6 @@
+$ ./demo2.py upload -k $(cat ./api.txt) -f binfile -e 300
+{
+    "environment_id": 300,
+    "job_id": "5e6f8cd7d314cf7e4433a851",
+    "sha256": "1e39354a6e481dac48375bfebb126fd96aed4e23bab3c53ed6ecf1c5e4d5736d",
+    "submission_id": "60077bb9bb7d2c724a411120"

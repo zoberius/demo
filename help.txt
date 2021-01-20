@@ -1,0 +1,36 @@
+$ ./demo2.py -h 
+usage: demo2.py [-h] {upload,download} ...
+
+Hybrid-Analysis (hybrid-analysis.com) demo for Siemplify =)
+
+positional arguments:
+  {upload,download}  sub-command help
+    upload           Upload file for analysis
+    download         Download job-id
+
+optional arguments:
+  -h, --help         show this help message and exit
+
+$ ./demo2.py upload -h
+usage: demo2.py upload [-h] -k HYBRID_API -f HYBRID_FILE -e {300,200,120,110,100} [-u HYBRID_UA] [-v]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -k HYBRID_API         Hybrid-Analysis API Key
+  -f HYBRID_FILE        File to be uploaded for analysis
+  -e {300,200,120,110,100}
+                        Environment ID. Available environments ID: 300: "Linux (Ubuntu 16.04, 64 bit)", 200: "Android Static Analysis", 120: "Windows 7 64 bit", 110: "Windows 7 32 bit (HWP
+                        Support)", 100: "Windows 7 32 bit"
+  -u HYBRID_UA          In order to bypass the internal User-Agent blacklist checks, a browser typical User-Agent string or e.g. "Falcon Sandbox" has to be provided
+  -v                    Verbose output
+
+$ ./demo2.py download -h
+usage: demo2.py download [-h] -k HYBRID_API -j HYBRID_JOB_ID [-u HYBRID_UA] [-v]
+
+optional arguments:
+  -h, --help        show this help message and exit
+  -k HYBRID_API     Hybrid-Analysis API Key
+  -j HYBRID_JOB_ID  Job ID to request analysis results
+  -u HYBRID_UA      In order to bypass the internal User-Agent blacklist checks, a browser typical User-Agent string or e.g. "Falcon Sandbox" has to be provided
+  -v                Verbose output
+
